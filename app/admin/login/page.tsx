@@ -1,0 +1,1 @@
+import { AdminLogin } from "@/components/admin-login";export const metadata={title:"Admin login",robots:{index:false,follow:false}};export default function Login(){return <main className="grid min-h-screen place-items-center bg-[radial-gradient(circle_at_50%_20%,#4f7cff25,transparent_35%)] p-5"><AdminLogin/></main>}
